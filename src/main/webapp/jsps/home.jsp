@@ -17,7 +17,7 @@
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Nikil, 
+		Nikil Rao, 
 		Martha Halli,
 		Bangalore,
 		+91-8892258894,
