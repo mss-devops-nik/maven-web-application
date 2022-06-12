@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Nikil laptop - GitHub Webhook PIPELEINE Scripted way trial 1.....</h1>
+<h1 align="center">Welcome to Nikil latop - GitHub Webhook PIPELEINE Scripted way trial 1.....</h1>
 <h1 align="center">PIPELINE SCRIPTED WAY</h1>
 <hr>
 <div style="text-align: center;">
