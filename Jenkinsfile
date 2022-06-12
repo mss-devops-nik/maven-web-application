@@ -3,6 +3,9 @@ node
     def mavenhome = tool name: "Maven 3.8.5"
     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([githubPush()])])
     stage ('checkoutcode')
+    echo "Job name is : ${env.JOB_NAME}
+    echo "Branch name is : ${env.BRANCH_NAME}
+    echo "Node name is : ${env.NODE_NAME}
     {
     git branch: 'development', credentialsId: 'a3e13267-aac5-40d7-973a-1bb63fc184a9', url: 'https://github.com/mss-devops-nik/maven-web-application/'
     }
