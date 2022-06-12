@@ -14,7 +14,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/nikilrao.jpg" alt="" width="1000">
+		<img src="images/nikilrao.jpg" alt="" width="300">
 	</span>
 	<span style="font-weight: bold;">
 		Nikil Rao, 
