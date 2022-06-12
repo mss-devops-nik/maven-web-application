@@ -14,10 +14,10 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/nikilrao.jpg" alt="" width="100">
+		<img src="images/nikilrao.jpg" alt="" width="1000">
 	</span>
 	<span style="font-weight: bold;">
-		Nikil ao, 
+		Nikil Rao, 
 		Martha alli,
 		Bangalore,
 		+91-
