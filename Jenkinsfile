@@ -1,7 +1,7 @@
 node
 {
     def mavenhome = tool name: "Maven 3.8.5"
-    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('')])])
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
     echo "Job name is : ${env.JOB_NAME}"
     echo "Branch name is : ${env.BRANCH_NAME}"
     echo "Node name is : ${env.NODE_NAME}"
