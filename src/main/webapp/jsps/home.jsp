@@ -18,7 +18,7 @@
 	</span>
 	<span style="font-weight: bold;">
 		Nikil ao, 
-		Martha Halli,
+		Martha alli,
 		Bangalore,
 		+91-
 		devopstrainingbr@gmail.com
