@@ -20,7 +20,7 @@
 		Nikil Rao, 
 		Martha Halli,
 		Bangalore,
-		+91-8892258894,
+		+91-
 		devopstrainingbr@gmail.com
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
