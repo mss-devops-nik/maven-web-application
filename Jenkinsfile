@@ -34,7 +34,7 @@ pipeline{
 		stage('TomcatDeploy') {
 			steps {
 				sshagent(['1be37b39-11dd-470f-8124-432736279306']) {
-					sh "scp target/maven-web-application.war ec2-user@172.31.36.168:/opt/apache-tomcat-9.0.63/webapps/"
+					sh "scp target/maven-web-application.war ec2-user@172.31.36.168:/opt/apache-tomcat-9.0.63/webapps"
 				}
 			}
 		}
