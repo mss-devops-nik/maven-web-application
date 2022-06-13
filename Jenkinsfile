@@ -28,7 +28,7 @@ node{
         		sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.36.168:/opt/apache-tomcat-9.0.63/webapps/"
     		}
     	}
-    
+	}
 }
 def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
