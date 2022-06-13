@@ -28,7 +28,15 @@ node{
         		sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.36.168:/opt/apache-tomcat-9.0.63/webapps/"
     		}
     	}
-	}
+	}catch (e) {
+    	// If there was an exception thrown, the build failed
+     	currentBuild.result = "FAILED"
+     	throw e
+     	} finally {
+     	// Success or failure, always send notifications
+     	notifyBuild(currentBuild.result)
+     	}
+    
 }
 def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
