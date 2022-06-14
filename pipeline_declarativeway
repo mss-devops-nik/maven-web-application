@@ -13,7 +13,7 @@ pipeline{
 	stages{
 		stage('Checkoutcode'){
 			steps {
-				git branch: 'develoment', credentialsId: 'a3e13267-aac5-40d7-973a-1bb63fc184a9', url: 'https://github.com/mss-devops-nik/maven-web-application/'
+				git branch: 'development', credentialsId: 'a3e13267-aac5-40d7-973a-1bb63fc184a9', url: 'https://github.com/mss-devops-nik/maven-web-application/'
 			}
 		}
 		stage('Build') {
