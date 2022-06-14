@@ -39,7 +39,8 @@ pipeline{
 				}
 			}
 		}
-		post {
+	}
+	post {
 			success {
 				sendSlackNotifications('SUCCESSFUL')
 			}
@@ -47,7 +48,6 @@ pipeline{
 				sendSlackNotifications('Failure')
 			}
 		}
-	}
 }
 
 def sendSlackNotifications(String buildStatus = 'STARTED') {
