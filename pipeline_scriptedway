@@ -1,3 +1,4 @@
+@Library ('sharedLibrarySLack') _
 node ('node')
 {
     def mavenhome = tool name: "Maven 3.8.5"
