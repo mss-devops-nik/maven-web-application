@@ -15,6 +15,7 @@
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
 
+
 <% 
 String ip = "";
 InetAddress inetAddress = InetAddress.getLocalHost();
